@@ -86,6 +86,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* HEADER & FOOTER */
+
 header, footer {
   display: flex;
   justify-content: center;
@@ -93,11 +95,16 @@ header, footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header nav {
@@ -105,11 +112,14 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  padding: 15px 0;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 44%;
 }
 
 footer .social-icons {
@@ -124,7 +134,24 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+.header-divider {
+  width: 100%;
+}
+
 /* MOBILE STYLES - HOMEPAGE */
+
+.content-wrapper {
+  width: 100%;
+}
 
 /* Hero Area */
 
@@ -157,6 +184,18 @@ aside {
   flex-flow: row wrap;
 }
 
+.features .content-wrapper {
+  width: 83%;
+}
+
+.features article {
+  width: 55%;
+}
+
+.features p {
+  margin: 0;
+}
+
 /* REVIEWS */
 
 .reviews {
@@ -164,6 +203,10 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.reviews h3 {
+  width: 86%;
 }
 
 /* ABOUT PAGE */
