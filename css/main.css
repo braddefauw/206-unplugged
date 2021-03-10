@@ -561,6 +561,7 @@ input[type=button] {
   aside .content-wrapper .form {        
       width: 40%;
       margin: 0;
+      flex-basis: 50%;
   }
 
   /* Features */
